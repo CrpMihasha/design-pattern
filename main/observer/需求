@@ -1,0 +1,10 @@
+基于WeatherData对象建立一个气象站，由WeatherData对象负责追踪目前的天气状况（温度/湿度/气压），希望建立一个应用，有三种布告板，分别显示目前的状况/气象统计及简单的预告。
+而且，这是一个可以扩展的气象站，希望可以公布一组API，让其他开发人员可以写出自己的气象布告板
+
+WeatherData源文件
+getTemperature()
+getHumidity()
+getPressure()
+measurementsChanged(){
+    // 你的代码在这里
+}
