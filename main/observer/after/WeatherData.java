@@ -15,8 +15,8 @@ public class WeatherData implements Subject{
 
     @Override
     public void remove(Observers observer) {
-        if (observers.contains(observer)) {
-            int i = observers.indexOf(observer);
+        int i = observers.indexOf(observer);
+        if (i >= 0) {
             observers.remove(i);
         }
     }
