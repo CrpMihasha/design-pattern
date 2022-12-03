@@ -1,0 +1,10 @@
+基于StarBazz提供的基类，写出供应饮料的程序
+饮料可以加入调料
+饮料可以选择大中小三种size
+
+
+基类
+abstract class Beverage{
+    abstract String getDescription（）;
+    abstract Double cost();
+}
