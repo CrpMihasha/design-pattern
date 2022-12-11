@@ -1,0 +1,30 @@
+有一个遥控器，这个遥控器有7个插槽，每个插槽有一个开按钮、一个关按钮
+实现一组api，将任意电器插入插槽，都可以进行控制
+
+电器api如下（未来可能会有新的电器加入其中）：
+CeillingLight{
+    on();
+    off();
+    dim();
+}
+
+OutDoorLight{
+    on();
+    off();
+}
+
+CeillingFan{
+    high();
+    medium();
+    low();
+    off();
+    getSpeed();
+}
+
+GardenDoor{
+    up();
+    down();
+    stop();
+    lightOn();
+    lightOff();
+}
